@@ -1,7 +1,7 @@
 WATER_PER_KG = 30
 ML_PER_LITER = 1000
 
-print("Привет!/nДобро пожаловать в FitLife.")
+print("Привет!\nДобро пожаловать в FitLife.")
 
 user_name = input("Как к тебе обращаться?").title()
 
@@ -21,8 +21,8 @@ while True:
 
 while True:
     try:
-        user_height = float(
-            input("\nТвой рост в метрах (введите через точку): "))
+        user_height = float(input(
+            "Твой рост в метрах (введите через точку): "))
         break
     except ValueError:
         print("\nПожалуйста, введите число.")
